@@ -1,6 +1,7 @@
 import InputMask from 'comigo-tech-react-input-mask';
 import { useState } from 'react';
 import { Button, Container, Divider, Dropdown, Form, Icon, Radio } from 'semantic-ui-react';
+import MenuSistema from '../../MenuSistema';
 
 const options = [
     { key: 'AC', text: 'Acre', value: 'AC' },
@@ -37,7 +38,7 @@ export default function FormEntregador() {
 
     return (
         <div>
-
+            <MenuSistema tela={'entregador'} />
             <div style={{ marginTop: '3%' }}>
 
                 <Container textAlign='justified' >

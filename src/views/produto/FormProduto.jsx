@@ -1,11 +1,14 @@
+// TODO: Ajustar tela de produto com back
+
 import InputMask from 'comigo-tech-react-input-mask';
 import { Button, Container, Divider, Form, FormField, Icon, TextArea } from 'semantic-ui-react';
+import MenuSistema from '../../MenuSistema';
 
 export default function FormProduto() {
     return (
 
         <div>
-
+            <MenuSistema tela={'produto'} />
             <div style={{ marginTop: '3%' }}>
 
                 <Container textAlign='justified' >
